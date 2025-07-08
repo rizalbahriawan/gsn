@@ -118,8 +118,7 @@
                                                     <a href="{{ route('siswa.show') . '?id='.$row->id }}" class="btn btn-primary btn-sm" target="_blank">View</a>
                                                     <input type="submit" class="btn btn-warning btn-sm" value="Edit" />
                                                     <a href="{{ route('siswa.cetak_pdf', $row->id) }}" class="btn btn-info btn-sm" target="_blank">Cetak PDF</a>
-                                                    {{-- <a href="{{ route('siswa.edit', $row->id) }}" class="btn btn-warning btn-sm">Edit</a> --}}
-                                                    {{-- <input type="submit" class="btn btn-danger btn-sm" value="Delete" /> --}}
+                                                    
                                                 </form>
                                             </td>
                                         </tr>

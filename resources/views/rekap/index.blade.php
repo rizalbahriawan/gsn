@@ -7,32 +7,6 @@
 
 @section('content')
 <div class="content">
-    {{-- <div class="alert alert-success alert-dismissible fade show" role="alert" id="success" style="display:none;">
-        <strong>
-            <p id="successText"></p>
-        </strong>
-        <button type="button" class="close" onclick="$('#success').hide();" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div> --}}
-    {{-- @if (!empty($successMessage))
-    <div class="alert alert-success alert-dismissible fade show mt-3" onshow="dismissed()" role="alert" id="success-alert">
-        <strong><p>{{ $successMessage }}</p></strong>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    @endif
-
-    <div class="alert alert-danger alert-dismissible fade show" role="alert" id="failed" style="display:none;">
-        <strong>
-            <p id="failedText"></p>
-            <p id="mainError"></p>
-        </strong>
-        <button type="button" class="close" onclick="$('#failed').hide();" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div> --}}
     <div class="row">
         <div class="col-md-12">
             <div class="card">
